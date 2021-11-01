@@ -1,10 +1,10 @@
 # admin.fw1028.top
 
-JAVA实验项目代码-同步自Intellij IDEA 2021.2.3(Ultimate Edition)
+Java实验项目代码-同步自Intellij IDEA 2021.2.3(Ultimate Edition)
 
 ## Features
 
-### JAVA实验项目，更改自动同步至Github，JAVA文件位于src路径下
+### Java 实验项目，更改自动同步至Github，Java文件位于src路径下
 
 - 比大小
 - 输出英文字母和希腊字母
