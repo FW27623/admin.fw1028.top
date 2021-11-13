@@ -4,6 +4,9 @@ import javax.swing.*;
 
 import static java.lang.System.out;
 
+/**
+ * @author FangWei
+ */
 public class UI {
 
     public static void main(String[] args) {

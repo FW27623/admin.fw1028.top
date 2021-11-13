@@ -1,5 +1,8 @@
 package test_family_name;
 
+/**
+ * @author FangWei
+ */
 public class Name {
     static String front_name;
     public String name;

@@ -3,6 +3,9 @@ package test_palindrome;
 import javax.swing.*;
 /*导包，Swing是Java的GUI工具包。*/
 
+/**
+ * @author FangWei
+ */
 public class Palindrome_number {
     public static void main(String[] args) {
         String str = JOptionPane.showInputDialog("请输入一个数");

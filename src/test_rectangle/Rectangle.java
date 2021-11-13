@@ -2,6 +2,9 @@ package test_rectangle;
 
 import javax.swing.*;
 
+/**
+ * @author FangWei
+ */
 public class Rectangle {
     private final double width;
     private final double height;

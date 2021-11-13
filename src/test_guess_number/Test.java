@@ -2,6 +2,9 @@ package test_guess_number;
 
 import javax.swing.*;
 
+/**
+ * @author FangWei
+ */
 public class Test {
     public static void main(String[] args) {
         JFrame frame = new JFrame("猜大小：难度选择");

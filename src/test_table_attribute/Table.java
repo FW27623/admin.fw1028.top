@@ -2,6 +2,9 @@ package test_table_attribute;
 
 import static java.lang.System.out;
 
+/**
+ * @author FangWei
+ */
 public class Table {
     String name;
     double weight,width,length,height;

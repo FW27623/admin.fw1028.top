@@ -2,6 +2,9 @@ package test_java;
 
 import static java.lang.System.out;
 
+/**
+ * @author FangWei
+ */
 public class ClassRoom {
     static String classroom="VBSE实验室";
 
