@@ -1,4 +1,4 @@
-package People;
+package test_people;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package People;
+package test_people;
 
 abstract class People{
     protected double[] height;

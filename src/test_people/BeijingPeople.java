@@ -1,4 +1,4 @@
-package People;
+package test_people;
 
 class BeijingPeople extends ChinaPeople{
     ChinaPeople a=new ChinaPeople();
