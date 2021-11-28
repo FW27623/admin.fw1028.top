@@ -1,5 +1,8 @@
 package People;
 
+/**
+ * @author FangWei
+ */
 public class test {
     public static void main(String[] args) {
         ChinaPeople aa=new ChinaPeople();
