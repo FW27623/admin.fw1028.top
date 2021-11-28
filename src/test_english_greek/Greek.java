@@ -1,5 +1,8 @@
 package test_english_greek;
 
+/**
+ * @author FangWei
+ */
 public class Greek {
     public void printGreek() {
         int firstLetter, lastLetter;

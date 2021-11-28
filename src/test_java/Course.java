@@ -1,5 +1,8 @@
 package test_java;
 
+/**
+ * @author FangWei
+ */
 public class Course {
     static String course="Java程序设计";
     public void show() {

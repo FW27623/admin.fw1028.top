@@ -1,5 +1,8 @@
 package test_java;
 
+/**
+ * @author FangWei
+ */
 public class Teacher {
     static String teacher_name="张帅兵";
     public void show() {

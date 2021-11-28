@@ -3,6 +3,9 @@ package test_guess_number;
 import javax.swing.*;
 import java.util.Random;
 
+/**
+ * @author FangWei
+ */
 public class Easy {
     public Easy() {
         Random random = new Random();
