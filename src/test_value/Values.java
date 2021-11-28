@@ -5,7 +5,7 @@ import javax.swing.*;
 class Values
 {
     public static void main(String[] args) {
-        String s=JOptionPane.showInputDialog("请输入两个整数，以空格隔开！");
+        String s=JOptionPane.showInputDialog("请输入两个整数，两个数之间以空格隔开！");
         String[] z;
         z = s.split(" ");
         if(z.length!=2) {
