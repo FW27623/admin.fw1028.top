@@ -2,8 +2,7 @@ package test_value;
 
 import javax.swing.*;
 
-class Values
-{
+class Values {
     public static void main(String[] args) {
         String s=JOptionPane.showInputDialog("请输入两个整数，两个数之间以空格隔开！");
         String[] z;

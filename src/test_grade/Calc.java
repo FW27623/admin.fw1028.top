@@ -18,12 +18,12 @@ class Calc {
         for(int i=0;i<str_b.length;i++) {
             b[i]=Double.parseDouble(str_b[i]);
         }
-        ComputerAverage computer;
-        computer=new SongGame();
-        double result=computer.average(a);
+        ComputerAverage c;
+        c=new SongGame();
+        double result=c.average(a);
         System.out.println("选手最后得分:"+String.format("%.2f",result)+"分");
-        computer=new School();
-        result=computer.average(b);
+        c=new School();
+        result=c.average(b);
         System.out.println("班级平均体重:"+String.format("%.2f",result)+"kg");
     }
 }

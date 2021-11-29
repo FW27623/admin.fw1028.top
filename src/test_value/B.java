@@ -1,7 +1,6 @@
 package test_value;
 
-class B extends A
-{
+class B extends A {
     @Override
     public int f(int a,int b) {
         A g=new A();

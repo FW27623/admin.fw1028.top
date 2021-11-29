@@ -1,7 +1,6 @@
 package test_value;
 
-class A
-{
+class A {
     public int f(int a,int b) {
         if(a<b) {int num=a;a=b;b=num;}
         int e=a%b;
