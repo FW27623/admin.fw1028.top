@@ -18,7 +18,8 @@ class Calc {
         for(int i=0;i<str_b.length;i++) {
             b[i]=Double.parseDouble(str_b[i]);
         }
-        ComputerAverage c = new SongGame();
+        ComputerAverage c;
+        c=new SongGame();
         double result=c.average(a);
         System.out.println("选手最后得分:"+String.format("%.2f",result)+"分");
         c=new School();
