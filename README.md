@@ -1,4 +1,4 @@
-# **admin.fw1028.top**
+# **Java面向对象实验案例代码**
 
 Java实验项目代码-同步自Intellij IDEA 2021.2.3(Ultimate Edition)
 
@@ -22,7 +22,7 @@ Java实验项目代码-同步自Intellij IDEA 2021.2.3(Ultimate Edition)
 - **1.编程模拟中国人和北京人。**  
      除主类外，还有3个类：test_people、ChinaPeople和BeijingPeople类，要求如下：  
 （1）People类是抽象类，有权限是protected的double型成员变量：height[]和weight[]，以及抽象方法：public void speakHello(String hello)、public double averageHeight(double height[])和public double averageWeight(double weight[])方法，功能分别是打印hello，计算平均身高和计算平均体重。  
-（2）ChinaPeople类是People的子类，新增了public void chinaGongfu(String gongfuName)方法，功能打印功夫名。要求ChinaPeople重写父类的speakHello、averageHeight和averageWeight方法，重写的方法功能同上。  
+（2）ChinaPeople类是People的子类，新增了public void chinaKongfu(String KongfuName)方法，功能打印功夫名。要求ChinaPeople重写父类的speakHello、averageHeight和averageWeight方法，重写的方法功能同上。  
 （3）BeijingPeople类是ChinaPeople的子类，要求BeijingPeople类重写父类的averageHeight和averageWeight方法，功能分别是计算身高之和及计算体重之和。（拓展：要求averageHeight计算身高之和时，必须先利用父类的averageHeight计算平均值，然后利用平均值求和；averageWeight方法同上）。  
 （4）在主类的主方法中，要求：创建ChinaPeople对象，并用该对象的averageHeight和averageWeight方法分别计算该对象的height[]的平均值和weight[]的平均值；创建BeijingPeople对象，并用该对象averageHeight和averageWeight方法ChinaPeople对象中height[]的身高之和及weight[]的体重之和。  
 
