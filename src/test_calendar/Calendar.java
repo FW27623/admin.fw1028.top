@@ -27,7 +27,7 @@ public class Calendar {
                 System.out.println(",请输入月份");
             }
         }
-        System.out.println("你输入的年份和月份是："+year+"年"+month+"月\n对应的日历页如下：");
+        System.out.println("你输入的年份和月份是："+year+"年"+month+"月\n其对应的日历页如下：");
         System.out.println("一\t二\t三\t四\t五\t六\t日\n");
         java.util.Calendar calendar = java.util.Calendar.getInstance();
         calendar.set(year, month-1, 0);
