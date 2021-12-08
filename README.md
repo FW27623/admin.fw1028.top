@@ -1,16 +1,16 @@
-# **admin.fw1028.top**
+# **Java面向对象实验项目代码**
 
 Java实验项目代码-同步自Intellij IDEA 2021.2.3(Ultimate Edition)
 
-## Features
+## 实验内容：
 
 ### Java 实验项目，更改自动同步至Github，Java文件位于[ src ](https://github.com/FW27623/admin.fw1028.top/tree/master/src)路径下
 
-#### _**实验一**_
+#### _**实验一：**_
 - **1.输出英文字母和希腊字母**
 - **2.判断回文数**
 
-#### _**实验二**_
+#### _**实验二：**_
 - **1.输出家庭成员结构**
 - **2.比大小**
 - **3.计算矩形的面积和周长**
@@ -18,7 +18,7 @@ Java实验项目代码-同步自Intellij IDEA 2021.2.3(Ultimate Edition)
 - **5.输出课程信息**
 - **6.猜数字游戏（三个难度级别）**
 
-#### **_实验三_**
+#### **_实验三：_**
 - **1.编程模拟中国人和北京人。**  
 *      除主类外，还有3个类：test_people、ChinaPeople和BeijingPeople类，要求如下：  
 *     （1）People类是抽象类，有权限是protected的double型成员变量：height[]和weight[]，以及抽象方法：public void speakHello(String hello)、public double averageHeight(double height[])和public double averageWeight(double weight[])方法，功能分别是打印hello，计算平均身高和计算平均体重。  
@@ -39,7 +39,7 @@ Java实验项目代码-同步自Intellij IDEA 2021.2.3(Ultimate Edition)
 *      要求在重写的方法的方法体中首先调用被隐藏的方法返回a和b的最大公约数m，然后将乘积(a * b)/m返回；  
 *      要求在应用的程序的主类中分别使用父类和子类创建对象，并分别调用方法f计算两个正整数的最大公约数和最小公倍数。
 
-#### **_实验四_**
+#### **_实验四：_**
 - **1.用户任意输入一个信息，判断信息内容是否为回文数（见实验一第2题）**  
 
 
