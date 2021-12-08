@@ -5,7 +5,7 @@ import static java.util.Calendar.*;
 /**
  * @author FangWei
  */
-public class Calendar_Test {
+public class CalendarTest {
     public static void main(String[] args) {
         System.out.println(getCalendar(2017, 7));
     }
