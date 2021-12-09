@@ -32,7 +32,7 @@ public class CalendarTest {
                 }
                 break;
             default:
-                System.out.println("输入错误，请重新输入！");
+                System.out.println("输入有误，请重新输入！");
                 System.exit(1);
         }
         int week = d.get(DAY_OF_WEEK);
