@@ -11,14 +11,14 @@ public class Calendar {
         int month = -1;
         while (year < 0) {
             try {
-                year = Integer.parseInt(JOptionPane.showInputDialog("请输入年份！"));
+                year = Integer.parseInt(JOptionPane.showInputDialog("请输入您想要查看的年份！"));
             } catch (Exception ex) {
                 year = Integer.parseInt(JOptionPane.showInputDialog("输入错误,请重新输入年份！"));
             }
         }
         while (month < 0) {
             try {
-                month = Integer.parseInt(JOptionPane.showInputDialog("请输入月份！"));
+                month = Integer.parseInt(JOptionPane.showInputDialog("请输入您想要查看的月份！"));
                 if (month < 1 || month > 12) {
                     throw new Exception();
                 }
