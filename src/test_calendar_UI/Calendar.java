@@ -34,20 +34,18 @@ public class Calendar {
         int week=date.get(java.util.Calendar.DAY_OF_WEEK)-1;
         int day=0;
 
-        //判断大月份
         if(month==1||month==3||month==5||month==7
                 ||month==8||month==10||month==12)
         {
             day=31;
         }
 
-        //判断小月
         if(month==4||month==6||month==9||month==11)
         {
             day=30;
         }
 
-        //判断平年与闰年
+
         if(month==2)
         {
             if(((year%4==0)&&(year%100!=0))||(year%400==0))

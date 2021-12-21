@@ -16,7 +16,6 @@ class CalendarUI extends JFrame implements ActionListener
     Calendar calendar;
     JLabel showMessage=new JLabel("",JLabel.CENTER);
     JLabel lbl1 = new JLabel("请输入年份：");
-    JLabel lbl2=new JLabel("   ");
 
     public CalendarUI()
     {
@@ -50,7 +49,6 @@ class CalendarUI extends JFrame implements ActionListener
 
         JPanel pNorth=new JPanel(), pSouth=new JPanel();
         pNorth.add(showMessage);
-        pNorth.add(lbl2);
         pNorth.add(previousMonth);
         pNorth.add(nextMonth);
         pSouth.add(lbl1);
