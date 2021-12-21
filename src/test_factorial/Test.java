@@ -14,19 +14,29 @@ public class Test {
     }
 }
 class  factorial extends JFrame implements ActionListener {
-    Button button = new Button("Calculate");
-    JTextArea showArea = new JTextArea();
-    JTextField jTextField = new JTextField(5);
+    JLabel lab1 =new JLabel("请输入一个非负整数：");
+    JTextField txt1 = new JTextField(10);
+    JLabel lab2 =new JLabel("你输入的数的阶乘是：");
+    JTextField txt2 = new JTextField(10);
+    JButton btn = new JButton("计算");
 
     void init() {
         setBounds(200, 200, 300, 200);
-        JPanel p = new JPanel();
-        p.add(new JLabel("请输入一个非负整数：", SwingConstants.LEADING));
-        p.add(jTextField);
-        p.add(button);
-        button.addActionListener(this);
-        add(p, BorderLayout.NORTH);
-        add(new JScrollPane(showArea), BorderLayout.CENTER);
+        Container c =getContentPane();
+        GridLayout grid = new GridLayout(3, 1);
+        c.setLayout(grid);
+        JPanel p1 = new JPanel();
+        JPanel p2 = new JPanel();
+        JPanel p3 = new JPanel();
+        p1.add(lab1);
+        p1.add(txt1);
+        p2.add(lab2);
+        p2.add(txt2);
+        p3.add(btn);
+        btn.addActionListener(this);
+        c.add(p1);
+        c.add(p2);
+        c.add(p3);
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
@@ -34,13 +44,12 @@ class  factorial extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         try {
-            int b = Integer.parseInt(jTextField.getText().trim());
+            int b = Integer.parseInt(txt1.getText().trim());
             calc test = new calc(b);
             String result = test.getResult();
-            showArea.append("数字" + b + "的阶乘为：" + result + "\n");
-
+            txt2.setText(result);
         } catch (Exception ex) {
-            showArea.append("输入错误"+"\n");
+            JOptionPane.showMessageDialog(null,"输入错误，请重新输入！");
         }
     }
 }
