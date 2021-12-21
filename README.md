@@ -48,7 +48,7 @@ Java实验项目代码-同步自Intellij IDEA 2021.2.3(Ultimate Edition)
 #### **_实验五：_**
 - **1.设计程序实现如图所示效果：输入一个非负整数后，点击“阶乘”按钮，计算该数的阶乘，并显示在下面的文本框中。**  
 
-  <img align="center" src="https://www.fw1028.top/wp-content/uploads/2021/12/img_1.png"/>    
+  <img src="https://www.fw1028.top/wp-content/uploads/2021/12/img_1.png" alt="1"/>    
   
 
 - **2.以课堂演示登录窗口为例，若存在五个合法用户（五个合法用户的账号和密码在编写代码时由小组确定），用户输入的账号和密码只要满足其中一个账号，都可以验证通过，同时要求验证通过后可以打开一个新的窗口；若验证失败直接在原窗口提示“用户名或密码错误”的字样。**  
@@ -56,12 +56,12 @@ Java实验项目代码-同步自Intellij IDEA 2021.2.3(Ultimate Edition)
 
 - **3.用户任意输入一个信息，判断信息内容是否为回文数（见实验一第2题）**  
 
-  <img align="center" src="https://www.fw1028.top/wp-content/uploads/2021/12/img_2.png"/>  
+  <img src="https://www.fw1028.top/wp-content/uploads/2021/12/img_2.png" alt="2"/>  
   
 
 - **4.编写程序实现如图功能：**  
 
-  <img align="center" src="https://www.fw1028.top/wp-content/uploads/2021/12/img_3.png"/>  
+  <img src="https://www.fw1028.top/wp-content/uploads/2021/12/img_3.png" alt="3"/>  
   
 
 - **5.编写代码实现交通信号灯功能。**
@@ -72,4 +72,4 @@ Java实验项目代码-同步自Intellij IDEA 2021.2.3(Ultimate Edition)
 
 - **7.编写代码实现如图所示功能。**  
 
-  <img align="center" src="https://www.fw1028.top/wp-content/uploads/2021/12/img_4.png"/>
+  <img src="https://www.fw1028.top/wp-content/uploads/2021/12/img_4.png" alt="4"/>
